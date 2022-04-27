@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+.score-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.time-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
