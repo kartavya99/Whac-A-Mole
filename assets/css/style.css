@@ -15,3 +15,23 @@
     justify-content: center;
     padding: 20px;
 }
+
+.square {
+    width : 200px;
+    height : 200px;
+    border : solid black;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 630px;
+    height: 630px;
+    align-content: center; 
+}
+
+.game-board{
+    display: flex;
+    justify-content: center;
+}
