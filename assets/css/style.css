@@ -2,14 +2,14 @@
     margin: 0;
 }
 
-.score-wrapper{
+.score-wrapper {
     margin: auto;
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
-.time-wrapper{
+.time-wrapper {
     margin: auto;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
     border : solid black;
 }
 
-.grid{
+.grid {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -31,7 +31,13 @@
     align-content: center; 
 }
 
-.game-board{
+.game-board {
     display: flex;
     justify-content: center;
+}
+
+.mole {
+    background-image: url('../images/mole.jpg');
+    background-size: cover;
+    
 }
