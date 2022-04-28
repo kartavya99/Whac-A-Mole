@@ -42,7 +42,7 @@ function countDown () {
     timeLeft.textContent = currentTime;
 
     if( currentTime === 0 ){
-        clearInterval(timeId);
+        clearInterval(timerId);
         clearInterval(moleTimerId);
         window.alert("GAME OVER! Your final score is" + result);
     }
